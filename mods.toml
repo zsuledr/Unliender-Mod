@@ -1,0 +1,26 @@
+modLoader="neoforged"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/zsuledr/Uliender-Mod/new/main"
+showAsResourcePack=false
+
+[[mods]]
+modId="unliender"
+version="7.0.0"
+displayName="Unliender Mod"
+authors="zsuledr"
+description="本mod会让末地难度增高"
+
+[[dependencies.unliender]]
+modId="neoforged"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="SERVER"
+
+[[dependencies.unliender]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.11,1.22)"
+ordering="NONE"
+side="SERVER"
